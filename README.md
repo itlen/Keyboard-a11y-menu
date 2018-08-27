@@ -1,4 +1,40 @@
-﻿# Simple personal spa blog without frameworks
-![Front‑End_Checklist followed](https://img.shields.io/badge/Front‑End_Checklist-followed-brightgreen.svg)
+﻿#Keyboard accesibility navigation
 
-[![Build Status](https://travis-ci.org/itlen/Blog.svg?branch=master)](https://travis-ci.org/itlen/Blog)
+##Use key arrows: 
+
+###to navigate top level menu:
+Right or left key arrow for next or previous item;
+Down key arrow to expand submenu for current item (if it has); 
+
+###to navigate submenu:
+Up and down keys arrow for next and previous item;
+Right key arrow to expand submenu for current item (if it has);
+Left arrow or Esc to roll up current submenu item;
+
+##Usage
+Your menu:
+<nav>
+	<ul>
+		<li>
+			<a href="#">item</a>
+		</li>
+		<li>
+			<a href="#">item</a>
+		</li>
+		<li>
+			<a href="#">expanded item</a>
+			<ul>
+				<li>
+					<a href="#">item 2</a>
+				</li>
+				<li>
+					<a href="#">item 2</a>
+				</li>
+				<li>
+					<a href="#">expanded item 3</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+
