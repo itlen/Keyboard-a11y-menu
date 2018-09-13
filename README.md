@@ -14,30 +14,30 @@ Up and down keys arrow for next and previous item;
 
 ## Usage
 Your menu:
-<nav>
-	<ul>
-		<li>
-			<a href="#">item</a>
-		</li>
-		<li>
-			<a href="#">item</a>
-		</li>
-		<li>
-			<a href="#">expanded item</a>
-			<ul>
-				<li>
-					<a href="#">item 2</a>
-				</li>
-				<li>
-					<a href="#">item 2</a>
-				</li>
-				<li>
-					<a href="#">expanded item 3</a>
-				</li>
-			</ul>
-		</li>
-	</ul>
-</nav>
+<span><nav></span>
+	<span><ul></span>
+		<span><li></span>
+			<span><a href="#">item</a></span>
+		<span></li></span>
+		<span><li></span>
+			<span><a href="#">item</a></span>
+		<span></li></span>
+		<span><li></span>
+			<span><a href="#">expanded item</a></span>
+			<span><ul></span>
+				<span><li></span>
+					<span><a href="#">item 2</a></span>
+				<span></li></span>
+				<span><li></span>
+					<span><a href="#">item 2</a></span>
+				<span></li></span>
+				<span><li></span>
+					<span><a href="#">expanded item 3</a></span>
+				<span></li></span>
+			<span></ul></span>
+		<span></li></span>
+	<span></ul></span>
+</nav></span>
 
 Right key arrow to expand submenu for current item (if it has);
 
