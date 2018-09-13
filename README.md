@@ -14,7 +14,7 @@ Up and down keys arrow for next and previous item;
 
 ## Usage
 Your menu:
-{::nomarkdown}
+```html
 <span><nav></span>
 	<span><ul></span>
 		<span><li></span>
@@ -39,7 +39,7 @@ Your menu:
 		<span></li></span>
 	<span></ul></span>
 </nav></span>
-{:/}
+```
 Right key arrow to expand submenu for current item (if it has);
 
 Left arrow or Esc to roll up current submenu item;
